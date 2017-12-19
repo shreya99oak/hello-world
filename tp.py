@@ -1,4 +1,4 @@
-def count_vowels(x):
+def count_vowels(y):
     """
     reutrn the number of vowels in x.
     count_vowels("shweta")
@@ -9,7 +9,7 @@ def count_vowels(x):
     1
     """
     number_vowels=0
-    for char in x:
+    for char in y:
         if char in "aeiou":
             number_vowels+=1
      
